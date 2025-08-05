@@ -1,0 +1,20 @@
+# Токен бота читается из переменной окружения BOT_TOKEN
+bot_token: "${BOT_TOKEN}"
+
+# Путь до SQLite-базы (внутри контейнера)
+db_path: "/app/data/processed/courses.db"
+
+# Логирование (подключается в src/utils/logging_config.py)
+logging:
+  version: 1
+  formatters:
+    default:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: default
+      level: INFO
+  root:
+    level: INFO
+    handlers: [console]

@@ -1,0 +1,12 @@
+python-telegram-bot>=22.3        # Telegram Bot API wrapper  [oai_citation:7‡Medium](https://medium.com/%40moraneus/building-telegram-bot-with-python-telegram-bot-a-comprehensive-guide-7e33f014dc79?utm_source=chatgpt.com)
+pdfminer.six>=20201018           # для разбора PDF
+beautifulsoup4>=4.11.1           # HTML-парсинг  [oai_citation:8‡Latenode Official Community](https://community.latenode.com/t/creating-a-custom-telegram-bot-with-python-beginners-help-needed/19750?utm_source=chatgpt.com)
+selenium>=4.5.0                  # headless-скачивание PDF  [oai_citation:9‡gillesfabio.com](https://gillesfabio.com/blog/2022/03/04/creating-a-telegram-bot-with-python/?utm_source=chatgpt.com)
+PyYAML>=6.0                      # чтение config.yaml  [oai_citation:10‡GitHub](https://github.com/piraces/python-telegram-bot?utm_source=chatgpt.com)
+requests>=2.28.1                 # HTTP-запросы  [oai_citation:11‡Medium](https://lukianovihor.medium.com/python-environment-variables-using-dotenv-library-71529ad0e9c3?utm_source=chatgpt.com)
+python-dotenv>=1.1.1             # загрузка .env-файла  [oai_citation:12‡PyPI](https://pypi.org/project/python-dotenv/?utm_source=chatgpt.com) [oai_citation:13‡Stack Overflow](https://stackoverflow.com/questions/41546883/what-is-the-use-of-python-dotenv?utm_source=chatgpt.com)
+
+black>=22.3.0
+ruff>=0.0.241
+mypy>=0.971
+pytest>=7.0.0

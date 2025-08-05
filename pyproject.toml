@@ -1,0 +1,18 @@
+[tool.black]
+line-length = 88
+target-version = ['py310']
+include = '\.pyi?$'
+
+[tool.ruff]
+line-length = 88
+select = [
+  'E',  # pycodestyle errors
+  'F',  # flake8-builtins
+  'W',  # pycodestyle warnings
+  'C',  # complexity
+  'B',  # bugbear
+  'ANN',# typing
+]
+ignore = [
+  'E501',  # handled by Black
+]
